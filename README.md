@@ -76,11 +76,11 @@ The data for this analysis was obtained from [Kaggle](https://www.kaggle.com/dat
 - **Analysis**: 82% of borrowers have a history of defaults on their loans, suggesting that there is a prevalent trend of financial difficulties among borrowers. Conversely, 18% of borrowers stand out for their clean repayment records, indicating a minority who have managed to navigate their financial obligations successfully.
 
 #### 3. Analyzing Loan Intent by age group:
-![Loan Intent by Age  Group](Images/loan_intent_by_age_group)
+![Loan Intent by Age  Group](Images/loan_intent_by_age_group.png)
 - **Analysis**: Borrowers aged 21-30 are the largest demographic securing loans, with education being the predominant reason and home improvement ranking lowest. This implies a focus on investing in education and potentially early career development among younger borrowers. For borrowers aged 31-40 and 41-50, the primary reason shifts towards medical needs, indicating a growing focus on healthcare in this age group. Finally, for borrowers aged 51-60 and 61-70, personal reasons become the main motivation for loans, reflecting a diverse range of financial needs or aspirations among older individuals. 
 
 #### 4. Analyzing Default Status by Age Group:
-![Default Status by Age Group](Images/default_status_by_age_group)
+![Default Status by Age Group](Images/default_status_by_age_group.png)
 - **Analysis**: younger individuals (21-30) are more represented in this dataset, with a much higher count of individuals either not taking loans or defaulting (loan status 0), while fewer people successfully manage their loans (loan status 1)
 
 
