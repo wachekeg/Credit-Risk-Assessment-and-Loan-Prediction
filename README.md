@@ -68,19 +68,19 @@ The data for this analysis was obtained from [Kaggle](https://www.kaggle.com/dat
 
 
 #### Analyzing loan intent of borrowers:
-![Loan Intent of Borrowers](Loan_Intent_of_Borrowers.png)
+
 - **Analysis**:  Educational purposes represent the highest loan intent percentage at 19.86%. This suggests that a significant portion of borrowers are investing in their education, possibly to further their careers or pursue higher levels of education.On the other hand, home improvement purposes represent the lowest percentage at 11.08%, indicating a smaller but still notable portion are investing in renovating or upgrading their homes..
 
 #### 2. Analyzing Default on File Distribution:
-![Default on file distribution](default_on_file_distribution.png)
+
 - **Analysis**: 82% of borrowers have a history of defaults on their loans, suggesting that there is a prevalent trend of financial difficulties among borrowers. Conversely, 18% of borrowers stand out for their clean repayment records, indicating a minority who have managed to navigate their financial obligations successfully.
 
 #### 3. Analyzing Loan Intent by age group:
-![Loan Intent by Age  Group](loan_intent_by_age_group)
+
 - **Analysis**: Borrowers aged 21-30 are the largest demographic securing loans, with education being the predominant reason and home improvement ranking lowest. This implies a focus on investing in education and potentially early career development among younger borrowers. For borrowers aged 31-40 and 41-50, the primary reason shifts towards medical needs, indicating a growing focus on healthcare in this age group. Finally, for borrowers aged 51-60 and 61-70, personal reasons become the main motivation for loans, reflecting a diverse range of financial needs or aspirations among older individuals. 
 
 #### 4. Analyzing Default Status by Age Group:
-![Default Status by Age Group](default_status_by_age_group)
+
 - **Analysis**: younger individuals (21-30) are more represented in this dataset, with a much higher count of individuals either not taking loans or defaulting (loan status 0), while fewer people successfully manage their loans (loan status 1)
 
 
