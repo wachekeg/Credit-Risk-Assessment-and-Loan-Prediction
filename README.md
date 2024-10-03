@@ -96,15 +96,10 @@ We classified and predicted risk based on the loan status (0 = paid; 1 = unpaid)
 | Model              | Accuracy | Precision | Recall | F1 Score |
 |--------------------|-------|-----------|--------|----------|
 | Logistic Regression| 0.850123 | 0.750317     | 0.473979  | 0.580962     |
-|                   
-| Decision Tree      | 0.881537 | 0.714179      | 0.766213   | 0.739282     |
-|                    
-| Random Forest      | 0.933836 | 0.963830      | 0.725380   | 0.827775    |
-|                    
-| KNN      | 0.886100 | 0.812500      | 0.624500   | 0.706202     |
-|                    
-| Gradient Boosting     | 0.926290 | 0.944266      | 0.705364   | 0.807516     |
-|                    
+| Decision Tree      | 0.881537 | 0.714179      | 0.766213   | 0.739282     |                  
+| Random Forest      | 0.933836 | 0.963830      | 0.725380   | 0.827775    |          
+| KNN      | 0.886100 | 0.812500      | 0.624500   | 0.706202     |             
+| Gradient Boosting     | 0.926290 | 0.944266      | 0.705364   | 0.807516     |          
 | XGBClassifier      | 0.938224 | 0.957187      | 0.751801   | 0.842152     |
 
 
@@ -114,8 +109,6 @@ We utilized linear regression as the baseline model and advanced regression algo
 
 | Model              | RMSE | MSE | MAE | R2 |
 |--------------------|-------|-----------|--------|----------|
-| Linear Regression| 3684.029430 | 1.357207e+07     | 2417.263159  | 0.654791     |
-|                    
-| ANN      | 630.317444 | 3.973001e+05      | 388.393219   | 0.989895     |
-|                    
+| Linear Regression| 3684.029430 | 1.357207e+07     | 2417.263159  | 0.654791     |             
+| ANN      | 630.317444 | 3.973001e+05      | 388.393219   | 0.989895     |            
 | XGBClassifier      | 498.285557 | 227.165864      | 0.751801   | 0.993685    |
