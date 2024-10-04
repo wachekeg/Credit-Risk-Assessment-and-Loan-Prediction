@@ -1,6 +1,6 @@
 # Credit Risk Assessment and Loan Prediction
 
-![Credit Risk Assessment and Loan Prediction](Credit.jfif)
+![Credit Risk Assessment and Loan Prediction](Risk.jpeg)
 
 ## Overview
 
