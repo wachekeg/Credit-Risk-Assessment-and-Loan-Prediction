@@ -1,6 +1,6 @@
 # Credit Risk Assessment and Loan Prediction
 
-![Credit Risk Assessment and Loan Prediction](Risk.jpeg)
+![Credit Risk Assessment and Loan Prediction](Credit.jfif)
 
 ## Overview
 
@@ -68,7 +68,7 @@ The data for this analysis was obtained from [Kaggle](https://www.kaggle.com/dat
 ## Exploratory Data Analysis
 
 
-#### Analyzing loan intent of borrowers:
+#### 1. Analyzing loan intent of borrowers:
 ![Loan Intent of Borrowers](Images/Loan_Intent_of_Borrowers.png)
 - **Analysis**:  Educational purposes represent the highest loan intent percentage at 19.86%. This suggests that a significant portion of borrowers are investing in their education, possibly to further their careers or pursue higher levels of education.On the other hand, home improvement purposes represent the lowest percentage at 11.08%, indicating a smaller but still notable portion are investing in renovating or upgrading their homes..
 
@@ -91,7 +91,7 @@ The project looks at 2 modelling tasks:
 1. Credit Risk Classification
 2. Loan Amount Prediction
 
-### Credit Risk Classification Modelling
+### 1. Credit Risk Classification Modelling
 We classified and predicted risk based on the loan status (0 = paid; 1 = unpaid) using various classification models, which performed as shown:
 
 | Model              | Accuracy | Precision | Recall | F1 Score |
@@ -105,7 +105,7 @@ We classified and predicted risk based on the loan status (0 = paid; 1 = unpaid)
 
 
 
-### Loan Amount Prediction
+### 2. Loan Amount Prediction
 We utilized linear regression as the baseline model and advanced regression algorithms, including XGBoost, and Artificial Neural Networks (ANN), to train models based on key financial indicators such as applicant income, home ownership status, and loan grade. 
 
 | Model              | RMSE | MSE | MAE | R2 |
@@ -136,7 +136,7 @@ LIME (Local Interpretable Model-Agnostic Explanations) library was used to gener
 - Feature Contributions
 - Top Features and Values
 
-Viz
+![Lime](Images/Lime.png)
 
 The model predicts with high confidence (98%) that the loan will be paid (class 0).
 Features like the person’s income, age, and employment length pushed the prediction toward loan repayment, while features like loan grade and loan intent suggested a higher risk but with less impact in this case.
@@ -146,11 +146,11 @@ Features like the person’s income, age, and employment length pushed the predi
 
 A SHAP (SHapley Additive exPlanations) summary plot, was used to explain how the features of the XGBRegressor model impact the output by visualizing the SHAP values for each feature.
 
-Viz
+![SHAP Summary Plot](Images/SHAP_Summary_Plot.png)
 
 This plot shows that loan_percent_income and person_income are the most influential features. When these values are high (red), they significantly increase the model's prediction output, suggesting these people are more likely to get a positive prediction. Lower values (blue) tend to pull predictions in the opposite direction.
 
-Viz
+![SHAP Dependency Plot](Images/SHAP_Dependency_Plot.png)
 
 A SHAP (SHapley Additive exPlanations) value plot revealed that individuals with higher incomes generally have positive SHAP values, indicating that an increase in income positively impacts the model's predictions.
 
